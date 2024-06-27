@@ -1,0 +1,25 @@
+{
+  "name": "birthday_reminder_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/ index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "mongoose": "^8.4.4",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "flag": "^5.0.1",
+    "nodemon": "^3.1.4"
+  }
+}
